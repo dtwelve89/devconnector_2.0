@@ -6,7 +6,9 @@
   "repository": "https://github.com/dtwelve89/devconnector_2.0.git",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "client": "cd client && yarn start",
+    "dev": "concurrently \"yarn run server\" \"yarn run client\""
   },
   "author": "Danny Nguyen <danny.danh.nguyen@gmail.com>",
   "license": "MIT",
