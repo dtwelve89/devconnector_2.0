@@ -2,7 +2,8 @@
   "name": "devconnector_2.0",
   "version": "1.0.0",
   "engines": {
-    "yarn": "1.16.0"
+    "yarn": "1.16.0",
+    "node": "10.16.0"
   },
   "description": "Social network for developers",
   "main": "server.js",
