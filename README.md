@@ -1,6 +1,6 @@
 # devconnector
 
-#A social network for web developers.
+A social network for web developers.
 
 Users are able to register and then login to create their profiles. The platform gives developers a unique opportunity to list their experience, education, skills, and social network links. Showcase your work with your linked GitHub repository linked to your profile!
 
