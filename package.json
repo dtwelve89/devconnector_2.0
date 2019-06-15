@@ -3,17 +3,16 @@
   "description": "Social network for developers",
   "version": "1.0.0",
   "engines": {
-    "node": "12.4.0",
-    "yarn": "1.16.0"
+    "node": "12.4.0"
   },
   "main": "server.js",
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
-    "client": "cd client && yarn start",
-    "client-install": "cd client && yarn install",
-    "dev": "concurrently \"yarn run server\" \"yarn run client\"",
-    "heroku-postbuild": "cd client && yarn install && yarn run build"
+    "client": "npm start --prefix client",
+    "client-install": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "repository": "https://github.com/dtwelve89/devconnector_2.0.git",
   "author": "Danny Nguyen <danny.danh.nguyen@gmail.com>",
