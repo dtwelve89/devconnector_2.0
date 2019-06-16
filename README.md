@@ -1,12 +1,16 @@
-# devconnector
+## DevConnector
 
-A social network for web developers.
+A social network for web developers. Post a tech topic, share with the community, and start a discussion.
 
-Users are able to register and then login to create their profiles. The platform gives developers a unique opportunity to list their experience, education, skills, and social network links. Showcase your work with your linked GitHub repository linked to your profile!
+### Summary:
 
-Share with the community! Users are able to post comments for others to see for discussion. Other users can reply with feedback and/or like a a post.
+This platform gives developers a unique opportunity to list their experience, education, skills, and social network links. Showcase your work with your linked GitHub repository linked to your profile.
 
-Technologies Used: MongoDB, Express, React.JS, Node.js, Redux, Javascript, HTML, CSS, Yarn, Mongoose, Bcrypt, JSONwebtoken, Moment and Axios.
+### Technologies Used:
+
+MongoDB, Express, React.JS, Node.js, Redux, Javascript, HTML, CSS, Mongoose, Bcrypt, JSONwebtoken, Moment, and Axios.
+
+### Deployment:
 
 See the project here deployed using Heroku: https://devconnectorxii.herokuapp.com/
 
