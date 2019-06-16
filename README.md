@@ -8,6 +8,6 @@ Share with the community! Users are able to post comments for others to see for 
 
 Technologies Used: MongoDB, Express, React.JS, Node.js, Redux, Javascript, HTML, CSS, Yarn, Mongoose, Bcrypt, JSONwebtoken, Moment and Axios.
 
-See the project here deployed using Heroku: https://devconnecterxii.herokuapp.com/
+See the project here deployed using Heroku: https://devconnectorxii.herokuapp.com/
 
 Github Repository: https://github.com/dtwelve89/devconnector_2.0
